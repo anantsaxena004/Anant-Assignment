@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<br>
+   <p align="right" style="color: red;"><u>Student Registeration Form</u></p>
+<br>
+<br>
+<br>
+<table>
+    <tr>
+        <td style="width: 100px;">
+            First Name
+        </td>
+        <td>
+            <input type="text" placeholder="Enter your first name" size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Last name:
+        </td>
+        <td>
+            <input type="text" placeholder="Enter your last name"size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Email:
+        </td>
+        <td>
+            <input type="email" name="" placeholder="It should contain @"size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Mobile:
+        </td>
+        <td>
+            <input type="number" placeholder="Only 10 digits are allowed" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Gender:  
+        </td>
+        <td>
+            <input type="radio"> Male
+            <input type="radio"> Female
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Date of birth:
+        </td>
+        <td>
+            <input type="date" placeholder="mm/dd/yyyy"size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Address:
+        </td>
+        <td>
+            <input type="text"size="60" style="height: 100px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            City:
+        </td>
+        <td>
+            <input type="text"size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Area PIN:
+        </td>
+        <td>
+            <input type="number"size="60"style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            State:
+        </td>
+        <td>
+            <input type="text"size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Qualification:
+        </td>
+        <td>
+            <select>
+                <option value="volvo">Select Qualification</option>
+                <option value="saab">Graduate</option>
+                <option value="opel">Post Graduate</option>
+                <option value="audi">12th Pass</option>
+              </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Specialization
+        </td>
+        <td>
+            <input type="checkbox" id="cs" name="qualification" value="cs">
+        <label for="cs">Computer Science</label>
+        <BR>
+        <input type="checkbox" id="cs" name="qualification" value="cs">
+        <label for="cs">Information Technology</label>
+        <br>
+        <input type="checkbox" id="cs" name="qualification" value="cs">
+        <label for="cs">Computer Architucture</label>
+        <br>
+        <input type="checkbox" id="cs" name="qualification" value="cs">
+        <label for="cs">Tele Communication</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width: 100px;">
+            Password: 
+        </td>
+        <td>
+            <input type="password"size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="submit" value="Registered"size="60" style="height: 20px;">
+        </td>
+    </tr>
+
+
+</table>
+    
+    
+
+</body>
+</html>
